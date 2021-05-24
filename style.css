@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Malaga";
-    src: url("fonts/malagaOTCE.otf") format("opentype");
+    src: url("./fonts/malagaOTCE.otf") format("opentype");
     font-weight: normal;
     font-style: normal;
 }
@@ -365,7 +365,7 @@ header{
 }
 
 .bottom_container{
-    background: url(images/background.png) top -20px center / 3600px 2200px;
+    background: url(./images/background.png) top -20px center / 3600px 2200px;
 }
 .slider_container{
     display: flex;
@@ -413,7 +413,7 @@ header{
     position: relative;
 }
 
-.device_container h1{
+.device_container span{
     color: #535353;
     font-family: 'Titillium Web', sans-serif;
     font-size: 36px;
@@ -471,7 +471,7 @@ header{
     position: absolute;
 }
 
-.donate_container h1 {
+.donate_container span{
     color: #535353;
     font-family: 'Titillium Web', sans-serif;
     font-size: 36px;
@@ -696,7 +696,7 @@ header{
     cursor: pointer;
 }
 
-.container_footer .information_container_footer h1 {
+.container_footer .information_container_footer span {
     color: #5c5c5c;
     margin-bottom: 25px;
     font-family: 'Titillium Web', sans-serif;
